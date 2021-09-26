@@ -8,4 +8,9 @@ main:
         addu    $10,$8,$9       # add register 8 and 9, put result in 10
         mul     $11,$8,$9       # multiply registers 8 and 9, put res in 11
 
+        ori     $v0, $0, 0x4
+        ori     $a0, $0, 0x4
+
+        syscall
+        
 # End of file
